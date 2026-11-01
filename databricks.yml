@@ -1,0 +1,12 @@
+bundle:
+  name: olist_lakehouse
+
+include:
+  - resources/*.yml
+
+targets:
+  dev:
+    mode: development
+    default: true
+    workspace:
+      host: https://dbc-2fb518ec-bf19.cloud.databricks.com

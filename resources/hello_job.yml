@@ -1,0 +1,8 @@
+resources:
+  jobs:
+    olist_hello:
+      name: olist_hello_${bundle.target}
+      tasks:
+        - task_key: hello
+          notebook_task:
+            notebook_path: ../notebooks/01_hello_bundle.py
