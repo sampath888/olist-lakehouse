@@ -1,4 +1,6 @@
 # Databricks notebook source
+
+#adding coment to test push
 CATALOG = "olist_lakehouse"
 spark.sql(f"CREATE CATALOG IF NOT EXISTS {CATALOG}")
 spark.sql(f"USE CATALOG {CATALOG}")
